@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D1AFF39-1452-4532-A7F4-399E3618542F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>StarCraft</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arbiter.h" />
+    <ClInclude Include="ArbiterTribunal.h" />
+    <ClInclude Include="Archon.h" />
+    <ClInclude Include="Assimilator.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="AttEffect.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Carrier.h" />
+    <ClInclude Include="CitadelofAdun.h" />
+    <ClInclude Include="CollisionMgr.h" />
+    <ClInclude Include="Corsair.h" />
+    <ClInclude Include="CreateBuild.h" />
+    <ClInclude Include="CyberneticsCore.h" />
+    <ClInclude Include="DamageMgr.h" />
+    <ClInclude Include="DarkArchon.h" />
+    <ClInclude Include="DarkTemplar.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="DistanceMgr.h" />
+    <ClInclude Include="Dragoon.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="FleetBeacon.h" />
+    <ClInclude Include="Fog.h" />
+    <ClInclude Include="Forge.h" />
+    <ClInclude Include="Functor.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GateWay.h" />
+    <ClInclude Include="HighTemplar.h" />
+    <ClInclude Include="Interceptor.h" />
+    <ClInclude Include="Interpace.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MapResource.h" />
+    <ClInclude Include="MiniResource.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MultiTexture.h" />
+    <ClInclude Include="Nexus.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="Observatory.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="PhotonCannon.h" />
+    <ClInclude Include="Probe.h" />
+    <ClInclude Include="Pylon.h" />
+    <ClInclude Include="Reaver.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RoboticsFacility.h" />
+    <ClInclude Include="RoboticsSupportBay.h" />
+    <ClInclude Include="Scarab.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="Scout.h" />
+    <ClInclude Include="ShieldBattery.h" />
+    <ClInclude Include="Shuttle.h" />
+    <ClInclude Include="SingleTexture.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StarCraft.h" />
+    <ClInclude Include="StarGate.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TemplarArchives.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureMgr.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="ObjectRenderMgr.h" />
+    <ClInclude Include="Zealot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arbiter.cpp" />
+    <ClCompile Include="ArbiterTribunal.cpp" />
+    <ClCompile Include="Archon.cpp" />
+    <ClCompile Include="Assimilator.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="AttEffect.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Carrier.cpp" />
+    <ClCompile Include="CitadelofAdun.cpp" />
+    <ClCompile Include="CollisionMgr.cpp" />
+    <ClCompile Include="Corsair.cpp" />
+    <ClCompile Include="CreateBuild.cpp" />
+    <ClCompile Include="CyberneticsCore.cpp" />
+    <ClCompile Include="DamageMgr.cpp" />
+    <ClCompile Include="DarkArchon.cpp" />
+    <ClCompile Include="DarkTemplar.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="DistanceMgr.cpp" />
+    <ClCompile Include="Dragoon.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="FleetBeacon.cpp" />
+    <ClCompile Include="Fog.cpp" />
+    <ClCompile Include="Forge.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GateWay.cpp" />
+    <ClCompile Include="HighTemplar.cpp" />
+    <ClCompile Include="Interceptor.cpp" />
+    <ClCompile Include="Interpace.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MapResource.cpp" />
+    <ClCompile Include="MiniResource.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MultiTexture.cpp" />
+    <ClCompile Include="Nexus.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="Observatory.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="PhotonCannon.cpp" />
+    <ClCompile Include="Probe.cpp" />
+    <ClCompile Include="Pylon.cpp" />
+    <ClCompile Include="Reaver.cpp" />
+    <ClCompile Include="RoboticsFacility.cpp" />
+    <ClCompile Include="RoboticsSupportBay.cpp" />
+    <ClCompile Include="Scarab.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="Scout.cpp" />
+    <ClCompile Include="ShieldBattery.cpp" />
+    <ClCompile Include="Shuttle.cpp" />
+    <ClCompile Include="SingleTexture.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="StarCraft.cpp" />
+    <ClCompile Include="StarGate.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TemplarArchives.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureMgr.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="ObjectRenderMgr.cpp" />
+    <ClCompile Include="Zealot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StarCraft.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="StarCraft.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

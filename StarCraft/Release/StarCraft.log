@@ -1,0 +1,72 @@
+﻿  stdafx.cpp
+  Arbiter.cpp
+  ArbiterTribunal.cpp
+  Archon.cpp
+  Assimilator.cpp
+  AStar.cpp
+  AttEffect.cpp
+  BackGround.cpp
+  Carrier.cpp
+  CitadelofAdun.cpp
+  CollisionMgr.cpp
+  Corsair.cpp
+  CreateBuild.cpp
+  CyberneticsCore.cpp
+  DamageMgr.cpp
+  DarkArchon.cpp
+  DarkTemplar.cpp
+  Device.cpp
+  DistanceMgr.cpp
+  Dragoon.cpp
+  Effect.cpp
+  컴파일하고 있습니다...
+  FleetBeacon.cpp
+  Fog.cpp
+  Forge.cpp
+  GameObject.cpp
+  GateWay.cpp
+  HighTemplar.cpp
+  Interceptor.cpp
+  Interpace.cpp
+  Intro.cpp
+  KeyMgr.cpp
+  Logo.cpp
+  MainGame.cpp
+  MapResource.cpp
+  MiniResource.cpp
+  Mouse.cpp
+  MultiTexture.cpp
+  Nexus.cpp
+  ObjMgr.cpp
+  Observatory.cpp
+  Observer.cpp
+  컴파일하고 있습니다...
+  PhotonCannon.cpp
+  Probe.cpp
+  Pylon.cpp
+  Reaver.cpp
+  RoboticsFacility.cpp
+  RoboticsSupportBay.cpp
+  Scarab.cpp
+  Scene.cpp
+  SceneMgr.cpp
+  Scout.cpp
+  ShieldBattery.cpp
+  Shuttle.cpp
+  SingleTexture.cpp
+  SoundMgr.cpp
+  Stage.cpp
+  StarCraft.cpp
+  StarGate.cpp
+  TemplarArchives.cpp
+  Texture.cpp
+  TextureMgr.cpp
+  컴파일하고 있습니다...
+  TimeMgr.cpp
+  ObjectRenderMgr.cpp
+  Zealot.cpp
+  코드를 생성하고 있습니다.
+  All 2733 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  StarCraft.vcxproj -> J:\포트폴리오\Project\03.StarCraft\03.StarCraft\Release\StarCraft.exe
+  StarCraft.vcxproj -> J:\포트폴리오\Project\03.StarCraft\03.StarCraft\Release\StarCraft.pdb (Full PDB)

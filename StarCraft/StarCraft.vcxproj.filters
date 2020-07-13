@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{7756acbc-a54f-4821-b1bb-68db54b888d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{2306788a-29cf-465e-9b2d-3a2a25146dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager">
+      <UniqueIdentifier>{3dcce595-8fb0-44ba-93bd-3c3264797d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Device">
+      <UniqueIdentifier>{5102776e-c702-4344-8f8a-93307b610158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\00.Texture">
+      <UniqueIdentifier>{79f3cafc-052d-44a8-8588-69420970dfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{5df1e960-bcb8-437c-b876-daeb64a9d91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{75ff34f5-7852-4aef-a0d4-18438327924e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\00.Texture\02.TextureMgr">
+      <UniqueIdentifier>{e8b963f2-f031-4232-bd0d-23c2c10fe126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.SceneMgr">
+      <UniqueIdentifier>{5e9bda22-b1bd-4af2-9a01-0884eb3ffcc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{fcceff56-ff66-4bfe-aff9-bd5ca875394d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{a4343b01-4e9b-4e5e-852b-0fb67125ba8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\02.ObjMgr">
+      <UniqueIdentifier>{096d5e9f-aea9-4113-8fc9-6efa018935a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\03.TimeMgr">
+      <UniqueIdentifier>{41d60a08-0bd5-441c-a6f4-5ed254d585c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Logo">
+      <UniqueIdentifier>{f36079c3-5409-4b76-b51b-e049d6bf0660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Intro">
+      <UniqueIdentifier>{511b9c42-6bb1-4770-b29c-4417406c56dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\04.SoundMgr">
+      <UniqueIdentifier>{c10cd1ba-d2e0-4868-9b8a-638e56a2ad20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Stage">
+      <UniqueIdentifier>{021e2880-f90a-4ad9-ab08-b4fc25c758f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround">
+      <UniqueIdentifier>{e41e7d9b-9c09-4d76-8ceb-51fc40b576dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit">
+      <UniqueIdentifier>{39036861-15df-42b4-b5a1-879353a34911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\05.Factory">
+      <UniqueIdentifier>{8dba4e88-7249-46ca-b5fb-44251f3b2e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build">
+      <UniqueIdentifier>{0f62c172-11e7-44c1-8cdc-c3316079f1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Mouse">
+      <UniqueIdentifier>{10652859-b54e-4b28-a958-924362b40434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\06.KeyMgr">
+      <UniqueIdentifier>{5e54b51c-799c-45cc-8fc8-0d80fa8630a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Interpace">
+      <UniqueIdentifier>{faa3b931-7492-45d9-840f-21cdfd90cfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\00.Probe">
+      <UniqueIdentifier>{96cb03c3-9f7a-4cbe-af72-b575e7396741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\07.Astar">
+      <UniqueIdentifier>{70079421-2f9c-4edc-8349-08e16f2b8b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Resource">
+      <UniqueIdentifier>{4872a4ec-3e14-42a0-8cd3-c5614995d0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Effect">
+      <UniqueIdentifier>{09707210-da26-46af-b52d-3f479a235d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Effect\00.MiniResource">
+      <UniqueIdentifier>{54ac5d84-54ec-4a97-9957-62de54e3ea4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\00.Nexus">
+      <UniqueIdentifier>{f3a0b4ff-9e18-46e0-ae5f-30edbdbddb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\08.DistanceMgr">
+      <UniqueIdentifier>{9109c63e-a782-498b-9e93-3b8dc95161cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Effect\01.Effect">
+      <UniqueIdentifier>{b8d69fd5-dbb0-4086-97eb-72ea730442ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\09.CollisionMgr">
+      <UniqueIdentifier>{bcf6d01e-c859-417b-8eb1-8303559fad3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\99.CreateBuild">
+      <UniqueIdentifier>{a87658dd-6c26-4ccb-88f8-b951a19fde2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\01.Pylon">
+      <UniqueIdentifier>{c7035e38-e6d6-4ee3-9861-c4d2eed664d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\02.Assimilator">
+      <UniqueIdentifier>{ec126cda-e272-4837-95a3-af1fd0f0fe8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\03.GateWay">
+      <UniqueIdentifier>{229d2bae-ca67-49bd-977a-f4d7b9732d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\04.Forge">
+      <UniqueIdentifier>{8e3e7c98-e62a-4e1f-aa14-3d73ba2432eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\01.Zealot">
+      <UniqueIdentifier>{ea4b4357-f422-46a7-aad0-a159eeb6a170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\05.Photon Cannon">
+      <UniqueIdentifier>{014c9027-26f9-48fa-8006-07c48ebbedf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\07.ShieldBattery">
+      <UniqueIdentifier>{7b17dbea-6f71-42f7-8d98-dbc56aa58f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\09.StarGate">
+      <UniqueIdentifier>{234a8819-c783-4de5-9d1e-07dd8f9158db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\11.Robotics Support Bay">
+      <UniqueIdentifier>{77481141-92c5-478c-8bbb-8036c1c35175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\10.Citadel of Adun">
+      <UniqueIdentifier>{ca889de7-9e61-4b96-8d76-b93970e7d0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\08.Robotics Facility">
+      <UniqueIdentifier>{2c55d096-5d1c-4bdc-808c-8968290ee8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\06.Cybernetics Core">
+      <UniqueIdentifier>{fa8c90b1-96fe-4a62-bf81-40abc9c6680d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\12.Fleet Beacon">
+      <UniqueIdentifier>{e371b8bc-6641-455a-884f-cb87a2d8f6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\13.Templar Archives">
+      <UniqueIdentifier>{83cefe7d-87ae-4ee0-9c66-bcf43d2dc052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\14.Observatory">
+      <UniqueIdentifier>{f6988a5c-6b44-4514-b216-a1ab58a3c465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Build\15.ArbiterTribunal">
+      <UniqueIdentifier>{0b5fcd60-683f-468d-9e34-3303e1ea5279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\02.Dragoon">
+      <UniqueIdentifier>{62da6c46-647b-4a63-b8cd-184c3f292a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\03.High Templar">
+      <UniqueIdentifier>{b90de821-6db0-49d5-a5a3-6b742b16bd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\04.Dark Templar">
+      <UniqueIdentifier>{a35109f9-5d87-4aa9-8c74-87163a24b4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\05.Archon">
+      <UniqueIdentifier>{2f1597d3-0f29-44f5-b197-0e9c24e1e0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\06.Dark Archon">
+      <UniqueIdentifier>{7a4487b3-23be-4386-98d7-bc5bf1e4df0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\07.Shuttle">
+      <UniqueIdentifier>{dc4128a9-ef14-451c-a1d7-df65fb51b5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\08.Reaver">
+      <UniqueIdentifier>{964fc5d3-6abd-45ff-94a6-99c5e81b846d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\09.Observer">
+      <UniqueIdentifier>{0892092f-023c-4fd4-87c5-ef2c5b11eb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\10.Scout">
+      <UniqueIdentifier>{603139df-0fa8-42b9-842a-65b3c54477d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\11.Corsair">
+      <UniqueIdentifier>{3412352d-7219-4410-bc42-2218388022a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\12.Carrier">
+      <UniqueIdentifier>{11955362-753d-42df-b484-3bfd25526b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\13.Arbiter">
+      <UniqueIdentifier>{b7bc8378-e730-4092-a770-5bd2d754fb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\10.DamageMgr">
+      <UniqueIdentifier>{27a83c70-dda8-4f60-aadd-14863367a963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\11.UnitRenderMgr">
+      <UniqueIdentifier>{16a4d993-1c22-4467-853a-15f8af7fbc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Effect\02.AttEffect">
+      <UniqueIdentifier>{68d9ad91-265a-480f-b3ae-f9b2c90776f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\12.Carrier\Interceptor">
+      <UniqueIdentifier>{5515f9bb-275e-4a96-a4ea-c979c39b7647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\07.Fog">
+      <UniqueIdentifier>{8f71ebf8-d63d-4b0f-a761-ef64e112ce3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Unit\08.Reaver\Scarab">
+      <UniqueIdentifier>{60f6ca53-105e-4273-929b-6ecabe07af5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StarCraft.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>97.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Manager\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Manager\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Manager\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Manager\00.Texture\02.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98.Manager\01.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.Scene\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>98.Manager\02.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98.Manager\03.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>02.Scene\00.Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>98.Manager\04.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98.Manager\04.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>01.GameObject\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>98.Manager\05.Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.GameObject\03.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98.Manager\06.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpace.h">
+      <Filter>01.GameObject\04.Interpace</Filter>
+    </ClInclude>
+    <ClInclude Include="Probe.h">
+      <Filter>01.GameObject\01.Unit\00.Probe</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>98.Manager\07.Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapResource.h">
+      <Filter>01.GameObject\05.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniResource.h">
+      <Filter>01.GameObject\06.Effect\00.MiniResource</Filter>
+    </ClInclude>
+    <ClInclude Include="Nexus.h">
+      <Filter>01.GameObject\02.Build\00.Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceMgr.h">
+      <Filter>98.Manager\08.DistanceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01.GameObject\06.Effect\01.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>98.Manager\09.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateBuild.h">
+      <Filter>01.GameObject\02.Build\99.CreateBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="Pylon.h">
+      <Filter>01.GameObject\02.Build\01.Pylon</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimilator.h">
+      <Filter>01.GameObject\02.Build\02.Assimilator</Filter>
+    </ClInclude>
+    <ClInclude Include="GateWay.h">
+      <Filter>01.GameObject\02.Build\03.GateWay</Filter>
+    </ClInclude>
+    <ClInclude Include="Forge.h">
+      <Filter>01.GameObject\02.Build\04.Forge</Filter>
+    </ClInclude>
+    <ClInclude Include="Zealot.h">
+      <Filter>01.GameObject\01.Unit\01.Zealot</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotonCannon.h">
+      <Filter>01.GameObject\02.Build\05.Photon Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberneticsCore.h">
+      <Filter>01.GameObject\02.Build\06.Cybernetics Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldBattery.h">
+      <Filter>01.GameObject\02.Build\07.ShieldBattery</Filter>
+    </ClInclude>
+    <ClInclude Include="RoboticsFacility.h">
+      <Filter>01.GameObject\02.Build\08.Robotics Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="StarGate.h">
+      <Filter>01.GameObject\02.Build\09.StarGate</Filter>
+    </ClInclude>
+    <ClInclude Include="CitadelofAdun.h">
+      <Filter>01.GameObject\02.Build\10.Citadel of Adun</Filter>
+    </ClInclude>
+    <ClInclude Include="RoboticsSupportBay.h">
+      <Filter>01.GameObject\02.Build\11.Robotics Support Bay</Filter>
+    </ClInclude>
+    <ClInclude Include="FleetBeacon.h">
+      <Filter>01.GameObject\02.Build\12.Fleet Beacon</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplarArchives.h">
+      <Filter>01.GameObject\02.Build\13.Templar Archives</Filter>
+    </ClInclude>
+    <ClInclude Include="Observatory.h">
+      <Filter>01.GameObject\02.Build\14.Observatory</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbiterTribunal.h">
+      <Filter>01.GameObject\02.Build\15.ArbiterTribunal</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragoon.h">
+      <Filter>01.GameObject\01.Unit\02.Dragoon</Filter>
+    </ClInclude>
+    <ClInclude Include="HighTemplar.h">
+      <Filter>01.GameObject\01.Unit\03.High Templar</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkTemplar.h">
+      <Filter>01.GameObject\01.Unit\04.Dark Templar</Filter>
+    </ClInclude>
+    <ClInclude Include="Archon.h">
+      <Filter>01.GameObject\01.Unit\05.Archon</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkArchon.h">
+      <Filter>01.GameObject\01.Unit\06.Dark Archon</Filter>
+    </ClInclude>
+    <ClInclude Include="Shuttle.h">
+      <Filter>01.GameObject\01.Unit\07.Shuttle</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaver.h">
+      <Filter>01.GameObject\01.Unit\08.Reaver</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>01.GameObject\01.Unit\09.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scout.h">
+      <Filter>01.GameObject\01.Unit\10.Scout</Filter>
+    </ClInclude>
+    <ClInclude Include="Corsair.h">
+      <Filter>01.GameObject\01.Unit\11.Corsair</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrier.h">
+      <Filter>01.GameObject\01.Unit\12.Carrier</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbiter.h">
+      <Filter>01.GameObject\01.Unit\13.Arbiter</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageMgr.h">
+      <Filter>98.Manager\10.DamageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectRenderMgr.h">
+      <Filter>98.Manager\11.UnitRenderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AttEffect.h">
+      <Filter>01.GameObject\06.Effect\02.AttEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Interceptor.h">
+      <Filter>01.GameObject\01.Unit\12.Carrier\Interceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Fog.h">
+      <Filter>01.GameObject\07.Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="Scarab.h">
+      <Filter>01.GameObject\01.Unit\08.Reaver\Scarab</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="StarCraft.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>97.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Manager\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Manager\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Manager\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Manager\00.Texture\02.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98.Manager\01.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.Scene\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>98.Manager\02.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98.Manager\03.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>02.Scene\00.Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98.Manager\04.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>01.GameObject\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.GameObject\03.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98.Manager\06.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpace.cpp">
+      <Filter>01.GameObject\04.Interpace</Filter>
+    </ClCompile>
+    <ClCompile Include="Probe.cpp">
+      <Filter>01.GameObject\01.Unit\00.Probe</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>98.Manager\07.Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapResource.cpp">
+      <Filter>01.GameObject\05.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniResource.cpp">
+      <Filter>01.GameObject\06.Effect\00.MiniResource</Filter>
+    </ClCompile>
+    <ClCompile Include="Nexus.cpp">
+      <Filter>01.GameObject\02.Build\00.Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceMgr.cpp">
+      <Filter>98.Manager\08.DistanceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01.GameObject\06.Effect\01.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>98.Manager\09.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateBuild.cpp">
+      <Filter>01.GameObject\02.Build\99.CreateBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="Pylon.cpp">
+      <Filter>01.GameObject\02.Build\01.Pylon</Filter>
+    </ClCompile>
+    <ClCompile Include="Assimilator.cpp">
+      <Filter>01.GameObject\02.Build\02.Assimilator</Filter>
+    </ClCompile>
+    <ClCompile Include="GateWay.cpp">
+      <Filter>01.GameObject\02.Build\03.GateWay</Filter>
+    </ClCompile>
+    <ClCompile Include="Forge.cpp">
+      <Filter>01.GameObject\02.Build\04.Forge</Filter>
+    </ClCompile>
+    <ClCompile Include="Zealot.cpp">
+      <Filter>01.GameObject\01.Unit\01.Zealot</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotonCannon.cpp">
+      <Filter>01.GameObject\02.Build\05.Photon Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="CyberneticsCore.cpp">
+      <Filter>01.GameObject\02.Build\06.Cybernetics Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldBattery.cpp">
+      <Filter>01.GameObject\02.Build\07.ShieldBattery</Filter>
+    </ClCompile>
+    <ClCompile Include="RoboticsFacility.cpp">
+      <Filter>01.GameObject\02.Build\08.Robotics Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="StarGate.cpp">
+      <Filter>01.GameObject\02.Build\09.StarGate</Filter>
+    </ClCompile>
+    <ClCompile Include="CitadelofAdun.cpp">
+      <Filter>01.GameObject\02.Build\10.Citadel of Adun</Filter>
+    </ClCompile>
+    <ClCompile Include="RoboticsSupportBay.cpp">
+      <Filter>01.GameObject\02.Build\11.Robotics Support Bay</Filter>
+    </ClCompile>
+    <ClCompile Include="FleetBeacon.cpp">
+      <Filter>01.GameObject\02.Build\12.Fleet Beacon</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplarArchives.cpp">
+      <Filter>01.GameObject\02.Build\13.Templar Archives</Filter>
+    </ClCompile>
+    <ClCompile Include="Observatory.cpp">
+      <Filter>01.GameObject\02.Build\14.Observatory</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbiterTribunal.cpp">
+      <Filter>01.GameObject\02.Build\15.ArbiterTribunal</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragoon.cpp">
+      <Filter>01.GameObject\01.Unit\02.Dragoon</Filter>
+    </ClCompile>
+    <ClCompile Include="HighTemplar.cpp">
+      <Filter>01.GameObject\01.Unit\03.High Templar</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkTemplar.cpp">
+      <Filter>01.GameObject\01.Unit\04.Dark Templar</Filter>
+    </ClCompile>
+    <ClCompile Include="Archon.cpp">
+      <Filter>01.GameObject\01.Unit\05.Archon</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkArchon.cpp">
+      <Filter>01.GameObject\01.Unit\06.Dark Archon</Filter>
+    </ClCompile>
+    <ClCompile Include="Shuttle.cpp">
+      <Filter>01.GameObject\01.Unit\07.Shuttle</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>01.GameObject\01.Unit\09.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scout.cpp">
+      <Filter>01.GameObject\01.Unit\10.Scout</Filter>
+    </ClCompile>
+    <ClCompile Include="Corsair.cpp">
+      <Filter>01.GameObject\01.Unit\11.Corsair</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrier.cpp">
+      <Filter>01.GameObject\01.Unit\12.Carrier</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbiter.cpp">
+      <Filter>01.GameObject\01.Unit\13.Arbiter</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageMgr.cpp">
+      <Filter>98.Manager\10.DamageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectRenderMgr.cpp">
+      <Filter>98.Manager\11.UnitRenderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="AttEffect.cpp">
+      <Filter>01.GameObject\06.Effect\02.AttEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Interceptor.cpp">
+      <Filter>01.GameObject\01.Unit\12.Carrier\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>01.GameObject\07.Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaver.cpp">
+      <Filter>01.GameObject\01.Unit\08.Reaver</Filter>
+    </ClCompile>
+    <ClCompile Include="Scarab.cpp">
+      <Filter>01.GameObject\01.Unit\08.Reaver\Scarab</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StarCraft.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="StarCraft.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

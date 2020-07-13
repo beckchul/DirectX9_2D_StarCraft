@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{43FF04D5-1160-46E9-8A10-446338178375}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Constant.h = Headers\Constant.h
+		Headers\Define.h = Headers\Define.h
+		Headers\Enum.h = Headers\Enum.h
+		Headers\Extern.h = Headers\Extern.h
+		Headers\Function.h = Headers\Function.h
+		Headers\Include.h = Headers\Include.h
+		Headers\Macro.h = Headers\Macro.h
+		Headers\Struct.h = Headers\Struct.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarCraft", "StarCraft\StarCraft.vcxproj", "{5D1AFF39-1452-4532-A7F4-399E3618542F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarTool", "StarTool\StarTool.vcxproj", "{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Debug|Win32.Build.0 = Debug|Win32
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Debug|x64.ActiveCfg = Debug|x64
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Debug|x64.Build.0 = Debug|x64
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Release|Win32.ActiveCfg = Release|Win32
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Release|Win32.Build.0 = Release|Win32
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Release|x64.ActiveCfg = Release|x64
+		{5D1AFF39-1452-4532-A7F4-399E3618542F}.Release|x64.Build.0 = Release|x64
+		{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}.Debug|Win32.Build.0 = Debug|Win32
+		{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}.Debug|x64.ActiveCfg = Debug|Win32
+		{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}.Release|Win32.ActiveCfg = Release|Win32
+		{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}.Release|Win32.Build.0 = Release|Win32
+		{4D2C8D46-1AFE-443F-A043-EAB4C39B39BA}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

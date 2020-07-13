@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  BackGround.cpp
+  BuildTool.cpp
+  Device.cpp
+  MainFrm.cpp
+  MapTool.cpp
+  MiniView.cpp
+  MultiTexture.cpp
+  MyForm.cpp
+  ObjectTool.cpp
+  SingleTexture.cpp
+  StarTool.cpp
+  StarToolDoc.cpp
+  StarToolView.cpp
+  Texture.cpp
+  TextureMgr.cpp
+  UnitTool.cpp
+  코드를 생성하고 있습니다.
+  All 1645 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  StarTool.vcxproj -> J:\포트폴리오\Project\03.StarCraft\03.StarCraft\Release\StarTool.exe
+  StarTool.vcxproj -> J:\포트폴리오\Project\03.StarCraft\03.StarCraft\Release\StarTool.pdb (Full PDB)
